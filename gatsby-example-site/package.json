@@ -4,11 +4,9 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "gatsby": "^1.8.10",
-    "gatsby-link": "^1.6.5",
-    "gatsby-plugin-react-helmet": "^1.0.1",
-    "gatsby-plugin-styled-components": "2.0.1",
-    "styled-components": "2.2.3"
+    "gatsby": "^1.9.119",
+    "gatsby-link": "^1.6.28",
+    "gatsby-plugin-react-helmet": "^1.0.8"
   },
   "keywords": [
     "gatsby"
@@ -16,13 +14,12 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "deploy": "gatsby new gatsby-example-site",
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^1.5.2"
+    "prettier": "^1.8.2"
   }
 }
